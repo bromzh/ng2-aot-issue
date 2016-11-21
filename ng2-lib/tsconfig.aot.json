@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        "target": "es5",
+        "moduleResolution": "node",
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "lib": [
+            "es6",
+            "dom"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "angularCompilerOptions": {
+        "skipTemplateCodegen": true,
+        "debug": true
+    }
+}
