@@ -82,6 +82,7 @@ npm run aot
 ```
 
 For now you have 2 _node_modules_ directories with angular 2 modules:
+
 1. In your app: _ng2-app/node_modules/@angular/core_. Version - 2.2.1.
 2. In your lib: _ng2-app/node_modules/ng2-app/node_modules/@angular/core_ . Version - 2.2.0.
 
@@ -102,6 +103,7 @@ _Compilation crashes even if you has same deps for app and lib_, but for some re
 #### How to reproduce
 
 **Step 1.** First, reproduce 2nd case until step 4 (without 4.1)
+
 **Step 2.** Change app deps versions
 ```
 cd ng2-app
@@ -111,6 +113,7 @@ npm run aot
 ```
 
 For now you have 2 _node_modules_ directories with angular 2 modules:
+
 1. In your app: _ng2-app/node_modules/@angular/core_. Version - 2.2.0.
 2. In your lib: _ng2-app/node_modules/ng2-app/node_modules/@angular/core_. Version - 2.2.0.
 
